@@ -1,0 +1,193 @@
+/* Desktop */
+
+@media (max-width: 1080px) {
+	
+	/* Header */
+	
+	.header__row {
+		column-gap: 40px;
+	}
+
+	.header__image {
+		width: 300px;
+	}
+
+	.scale {
+		border-radius: 60px;
+	}
+
+	.header__title {
+		font-size: 52px;
+
+	}
+
+	.header__text {
+	font-size: 22px;
+	}
+
+	/* Portfolio */
+
+	.portfolio__title {
+		font-size: 42px;
+	}
+
+	.project__img {
+		width: 400px;
+	}
+
+	.project__title {
+		font-size: 20px;
+	}
+
+	/* Contacts */
+
+	.contacts {
+		padding: 40px 0;
+
+	}
+
+
+	.contacts__title {
+		font-size: 42px;
+		margin-bottom: 25px;
+	}
+
+	.inner__page-title {
+		font-size: 42px;
+	}
+	
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+	/* Header */
+	
+	.header {
+		/* padding-top: 20px; */
+		padding-bottom: 40px;
+		
+		border-bottom-right-radius: 60px;
+	}
+
+	.header__video {
+		border-bottom-right-radius: 60px;
+	}
+
+	.header__image {
+		width: 100%;
+	}
+
+	.scale {
+		border-radius: 30px;
+	}
+
+	.header__row {
+		flex-direction: column;
+		align-items: flex-start;
+		column-gap: 20px;
+	}
+
+	.header__title {
+		font-size: 32px;
+	}
+
+	.header__text {
+		font-size: 18px;
+	}
+
+	.button-portfolio,
+	.button-contacts {
+		height: 42px;
+		font-size: 16px;
+		padding-top: 12px;
+	
+		padding-bottom: 14px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	/* Portfolio */
+
+	.portfolio {
+		padding: 40px 0;
+	}
+
+	.portfolio__title {
+		padding-bottom: 30px;
+		font-size: 28px;
+	}
+
+	.portfolio__projects {
+		row-gap: 30px;
+	}
+
+	.project__img {
+		min-width: 290px;
+	}
+
+	.project__title {
+		padding-top: 20px;
+		font-size: 16px;
+	}
+	
+	/* Contacts */
+
+	.contacts {
+		padding: 40px 0;
+		border-top-left-radius: 60px;
+	}
+
+	.contacts__title {
+		margin-bottom: 30px;
+		font-size: 28px;
+	}
+
+	.messangers {
+		flex-direction: column;
+		/* column-gap: 20px; */
+		row-gap: 20px;
+	}
+
+	.messanger {
+		padding: 32px 20px;
+		border-radius: 12px;
+		font-size: 16px;
+	}
+
+	/* Footer */
+
+	.footer__inner {
+		font-size: 12px;
+	}
+
+	/* Inner page */
+
+	.inner__page {
+		padding-bottom: 20px;
+		padding-top: 40px;
+	}
+
+	.inner__page-details {
+		row-gap: 20px;
+		padding-bottom: 20px;
+	}
+
+	.inner__page-title {
+		font-size: 28px;
+	}
+
+	.inner__page-text {
+		row-gap: 20px;
+	}
+
+	.inner__page-img {
+		margin-bottom: 20px;
+	}
+	
+	.inner__page-backlink {
+		/* max-width: 290px; */
+		padding: 20px;
+
+	}
+}
